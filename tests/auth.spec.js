@@ -118,7 +118,7 @@ describe('Registeration Endpoint', ()=> {
         expect(registereduser).toEqual(mockregisterationdetails)
 
     })
-    it('it should handle Validation errors', async()=>{
+    it('it should handle Validation errors Such as the repeated emails or userId or missing fields', async()=>{
         const user_data = { email : "andyadeleye@gmail.com", phone : "08102980007"}//missing some required fields e.g firstName, lastName
         try{
             await registerwitherror(user_data)
