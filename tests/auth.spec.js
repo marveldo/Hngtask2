@@ -6,7 +6,7 @@ jest.mock("axios")
 
 
 
-const BaseUrl = "http://127.0.0.1:8000"
+const BaseUrl = "https://hngtask2-nine.vercel.app"
 
 const mockregisterationdetails = {
    "status": "success",
