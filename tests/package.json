@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "axios": "^1.7.2"
+    "axios": "^1.7.2",
+    "jest-mock": "^29.7.0",
+    "jwt-decode": "^4.0.0"
   },
   "devDependencies": {
     "jest": "^29.7.0"
